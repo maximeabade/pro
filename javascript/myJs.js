@@ -20,10 +20,6 @@ $(document).ready(function(){
         });
       } // End if
     });
-    $('#nav li a').click(function ()
-{
-    $('#nav ul').hide()
-});
 
     $(window).scroll(function() {
       $(".slideanim").each(function(){
@@ -36,3 +32,4 @@ $(document).ready(function(){
       });
     });
   })
+
